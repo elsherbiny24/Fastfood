@@ -1,0 +1,57 @@
+.sec3__service{
+    padding-top: 80px;
+    width: 100%;
+    min-height: 100vh;
+}
+.text__service{
+    margin-bottom: 70px;
+}
+.text__service h5{
+  color: #df2020;
+}
+.text__service h1{
+    color: #212245;
+    font-weight: 700;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+.text__service h1 span{
+    color: #df2020;
+}
+.text__service p{
+    color: #777777;
+    margin-bottom: 5px;
+}
+.box__servise{
+    margin-bottom: 45px;
+}
+.box__servise .Img__service{
+    width: 70px;
+    margin-bottom: 15px;
+    animation: move 2s infinite alternate;
+}
+@keyframes move{
+    0%{
+        transform: translateX(-12px);
+    }
+    100%{
+        transform: translateX(10px);
+    }
+}
+.box__servise h5{
+    font-size: 22px;
+    font-weight: bold;
+    color: #212529;
+    margin-bottom: 15px;
+}
+.box__servise p{
+    color: #777777;
+}
+@media (max-width:600px) {
+    .text__service h1{
+        
+        font-size: 30px;
+        line-height: 40px;
+      
+    }
+}

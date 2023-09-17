@@ -1,0 +1,51 @@
+.Tast__Treat{
+    width: 100%;
+    min-height: 90vh;
+    padding-top: 90px;
+    overflow: hidden;
+}
+.Img__location{
+    width: 500px;
+    animation: move 2s infinite alternate;
+}
+.text__treat h1{
+    color: #212245;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.text__treat h1 span{
+    color: #df2020;
+}
+.text__treat p{
+    color: #666 !important;
+    margin-bottom: 30px;
+}
+.text__treat h5{
+    font-size: 18px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.text__treat h5 span{
+    height: 18px;
+    width: 18px;
+    background-color: #df2020;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+@media (max-width:600px){
+    .Img__location{
+        width: 300px;
+    }
+    .text__treat{
+        text-align: center;
+    }
+    .text__treat h5{
+        
+        margin-left: 25px;
+    }
+}

@@ -1,0 +1,63 @@
+.sec__customer{
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 100px;
+    
+    overflow: hidden;
+}
+.text__customer h1{
+    font-weight: bold;
+    color: #282945;
+    margin-bottom: 30px;
+}
+.text__customer h1 span{
+    color: #df2020;
+}
+.text__customer .h6{
+    color: #df2020;
+    font-size: 24px;
+    letter-spacing: .5px;
+    margin-bottom: 10px;
+}
+
+.Img__network{
+    width: 500px;
+}
+.box__img{
+    gap: 1rem;
+}
+.customer .Img__person{
+    width: 50px;
+    height: 50px;
+   object-fit: cover;
+}
+.p{
+    color: #666;
+    margin-bottom: 50px;
+}
+.p__customer{
+    margin-bottom: 40px;
+    color: #777;
+}
+@media (max-width:600px) {
+    .text__customer h1{
+        font-size: 24px;
+        text-align: center;
+    }
+    .text__customer .h6{
+        text-align: center;
+    }
+    .p{
+        text-align: center;
+    }
+    .customer__row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .Img__network{
+        width: 300px;
+    }
+}

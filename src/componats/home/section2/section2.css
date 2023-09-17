@@ -1,0 +1,40 @@
+.food__sec2{
+    width: 100%;
+    min-height: 40vh;
+    padding-top: 80px ;
+    padding-bottom: 40px;
+}
+.box__food{
+    width: 100% !important;
+    height: 100px;
+    background-color: #fde4e4;
+    border-radius: 5px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    transition: .4s ease all;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.box__food:hover{
+    transform: translateY(-15px);
+}
+.box__food .img__food{
+    width: 60px;
+}
+.box__food h5{
+    font-size: 16px;
+}
+@media (max-width:500px) {
+    .box__food{
+        width: 100% !important;
+        height: 80px;
+    }
+    .box__food .img__food{
+        width: 60px;
+    }
+    .box__food h5{
+        font-size: 17px;
+    }
+}
